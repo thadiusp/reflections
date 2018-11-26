@@ -1,0 +1,46 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository you create a git folder to hold your
+commits. You need this repository to keep your files organized.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The working directory is the folder you are currently working in. It includes everything in the folder rather it is realated to the repository or not. The repository is simply a folder for the files you want version control on. The staging area is the place you put your files to prepare them to be put in the repository for version control.
+(I honestly don't know why this stage needs to exist.)
+
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+You can use git diff with the staging area and the working directory to inspect your file before commiting. This ensures you only have one commit per logical change.
+
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+It could organize if I'm trying several different features that I'm 
+not ready to put in the final product yet. I could create a seperate
+branch for each new add-on so I can work on them independantly and 
+easily.
+
+
+How do the diagrams help you visualize the branch structure?
+
+By drawing out your git repository in a diagram, you can see the 
+different branches and have a better idea of where everything is located.
+
+
+What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?
+
+You create a new master branch that includes the coins branch with the 
+original master branch by merging them together. 
+
+
+What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+The pro is that it does it much quicker than manually, but it can't
+always merge everything. Sometimes you need to look at code yourself
+and manually merge the code together.
